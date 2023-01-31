@@ -1,1 +1,1 @@
-# Gmail-Trash-Delete-Popup
+Reference - got the idea from gmail. When you delete an email, it go to the trash folder. When you are in trash folder, you will see empty trash now. When you click on it, a popup will appear or a modal will popup. There are colors effect upon hovering on X, OK, and Cancel. When you hover over the X, you will see another popup appear with the word close but there is a delay with this. As you can confirm from your gmail trash folder, there is a delay before the word close appear. Enjoy having fun playing with this mini-project.
