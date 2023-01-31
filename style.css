@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: black;
+    color: gray;
+    padding: 11px;
+    margin-left: 10%;
+    font-size: 24px;
+    width: 70%;
+}
+
+#trash{
+    color: lightblue;
+    padding: 6px;
+    margin-left: 0.5%;
+}
+
+#trash:hover{
+    background-color: rgb(234, 234, 244, 0.5);
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#modelContainer{
+    background-color: white;
+    padding: 30px;
+    width: 35%;
+    height: 250px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: none;
+}
+
+#modelTop{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 3%;
+}
+
+#modelMiddle{
+    padding: 20px;
+    font-size: 20px;
+}
+
+#modelBottom button{
+    display: block;
+    left: 20%;
+}
+
+.xBtn{
+    margin-top: 1%;
+    margin-right: 10%;
+    font-size: 25px;
+}
+
+#close{
+    background-color: gray;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    position: absolute;
+    top: 95%;
+    left: 83%;
+    font-size: 20px;
+    display: none;
+}
+
+.xBtn:hover{
+    color: rgba(0, 0, 0, 0.63);
+    cursor: pointer;
+}
+
+.cancel, .ok{
+    font-size: 25px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 55%;
+}
+
+.ok{
+    background-color: blue;
+    color: white;
+    width: 20%;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.cancel:hover, .ok:hover{
+    cursor: pointer;
+}
+
+.ok:hover{
+    background-color: rgba(0, 0, 255, 0.671);
+}
+
+
+
